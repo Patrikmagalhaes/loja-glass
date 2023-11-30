@@ -1,0 +1,15 @@
+
+.carousel-item{
+    height: 100%;
+    max-height: 600px;
+   
+}
+.sobre{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+body{
+    background-color: #ffc10748;
+    
+}
