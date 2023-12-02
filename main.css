@@ -1,29 +1,42 @@
+body {
+    background-color: #fff3cd;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
 
-.carousel-item{
+.carousel-item {
     height: 100%;
     max-height: 600px;
-   
 }
-.sobre{
+
+.sobre {
     max-width: 700px;
     width: 100%;
     margin: 0 auto;
 }
-body{
-    background-color: #ffc10748;
-    
-}
-.navbar-nav .nav-link.active{
-    color: #fff;
-}
-.nav-link{
+
+.nav-link {
     text-align: center;
 }
-header{
+
+.nav-link.text-dark.active {
+    color: #fff !important;
+}
+
+header {
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 1;
-    background-color: #fff;
-  
+    z-index: 3;
+}
+
+li {
+    font-size: 1.5em;
+}
+
+section img {
+    max-height: 350px;
+
+
 }
